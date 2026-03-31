@@ -1,0 +1,5 @@
+# Original CV (spaces in filename — use cv.pdf instead)
+CV Ahmet Ertuğrul KAYA #1.pdf
+
+# Deploy artifact (not needed, CI handles it)
+site.zip
