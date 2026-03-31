@@ -12,15 +12,14 @@ The entire site is a **single self-contained `index.html`** — all CSS and JS a
 
 To create a deployable zip:
 ```bash
-zip -r site.zip index.html cv.pdf cv/
+zip site.zip index.html cv.pdf
 ```
 Then upload `site.zip` to Cloudflare Pages dashboard → your project → Deployments → Upload assets.
 
 ## Structure
 
 - `index.html` — main site (HTML + CSS + JS inline)
-- `cv.pdf` — CV file served at `/cv.pdf`
-- `cv/index.html` — CV viewer page served at `/cv`
+- `cv.pdf` — CV file, opens in browser at `/cv.pdf`
 
 ## Design system (in `index.html`)
 
